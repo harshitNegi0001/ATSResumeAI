@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "tailwind-scrollbar";
+
+* {
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
