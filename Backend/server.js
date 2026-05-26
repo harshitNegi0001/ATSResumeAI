@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 const app= express();
 
 app.use(cors({
-    origin:['http://localhost:5173'],
+    origin:['http://localhost:5173','https://ats-resume-ai-silk.vercel.app'],
     credentials:true,
 }));
 app.use(express.json());
